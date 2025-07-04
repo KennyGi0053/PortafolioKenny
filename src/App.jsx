@@ -1,4 +1,5 @@
 import './App.css'
+import Habilidades from './components/Habilidades'
 import Navbar from './components/Navbar'
 import Presentacion from './components/presentacion'
 import Proyectos from './components/Proyectos'
@@ -12,6 +13,7 @@ function App() {
         <Presentacion/>
         <Sobremi/>
         <Proyectos/>
+        <Habilidades/>
       </div>
       
   )
