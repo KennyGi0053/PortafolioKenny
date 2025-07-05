@@ -31,11 +31,11 @@ const Navbar = () => {
       {/* Menú desplegable en móvil */}
       {open && (
         <div className="flex flex-col md:hidden gap-4 mt-2 px-4">
-          <p className="text-gray-700 text-sm">Inicio</p>
-          <p className="text-gray-700 text-sm">Sobre Mí</p>
-          <p className="text-gray-700 text-sm">Proyectos</p>
-          <p className="text-gray-700 text-sm">Habilidades</p>
-          <p className="text-gray-700 text-sm">Contacto</p>
+          <a href="#inicio" className="text-gray-700 text-sm">Inicio</a>
+          <a href="#sobremi" className="text-gray-700 text-sm">Sobre Mí</a>
+          <a href="#proyectos" className="text-gray-700 text-sm">Proyectos</a>
+          <a href="#habilidades" className="text-gray-700 text-sm">Habilidades</a>
+          <a href="#contacto" className="text-gray-700 text-sm">Contacto</a>
         </div>
       )}
     </nav>
