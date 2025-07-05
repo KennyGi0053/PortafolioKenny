@@ -20,11 +20,11 @@ const Navbar = () => {
 
         {/* Menú horizontal en desktop */}
         <div className="hidden md:flex flex-row items-center space-x-10 mr-10">
-          <p className="text-gray-700 text-sm font-medium">Inicio</p>
-          <p className="text-gray-700 text-sm font-medium">Sobre Mí</p>
-          <p className="text-gray-700 text-sm font-medium">Proyectos</p>
-          <p className="text-gray-700 text-sm font-medium">Habilidades</p>
-          <p className="text-gray-700 text-sm font-medium">Contacto</p>
+          <a href="#inicio" className="text-gray-700 text-sm font-medium">Inicio</a>
+          <a href="#sobremi" className="text-gray-700 text-sm font-medium">Sobre Mí</a>
+          <a href="#proyectos" className="text-gray-700 text-sm font-medium">Proyectos</a>
+          <a href="#habilidades" className="text-gray-700 text-sm font-medium">Habilidades</a>
+          <a href="#contacto" className="text-gray-700 text-sm font-medium">Contacto</a>
         </div>
       </div>
 

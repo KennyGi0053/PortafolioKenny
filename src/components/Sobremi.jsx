@@ -4,13 +4,13 @@ import platzi1 from "../assets/curso basico de tailwindcss.png"
 import platzi2 from "../assets/reactjs con vite y tailwindcss.png"
 const Sobremi = () => {
   return (
-    <div className='mt-10 bg-gray-50'>
-        <h1 className='text-center font-extrabold text-xl md:pt-20'>Sobre Mí</h1>
+    <div id="sobremi" className='mt-10 bg-gray-50'>
+        <h1 className='text-center font-bold text-2xl md:pt-20'>Sobre Mí</h1>
     <div className="flex flex-col md:flex-row md:ml-60">
         <img src={foto} alt="Foto Kenny Perfil" 
         className="mt-6 h-60 rounded-2xl items-center mx-auto md:h-100 "
         />
-        <div className="mt-4 m-2 space-y-4 md:ml-24">
+        <div className="mt-4 m-4 space-y-4 md:ml-24">
 
         <p className="mt-6 text-justify text-gray-700 md:text-center md:pt-20 md:text-justify md:mr-6">Con 2 años de experiencia en desarrollo web, android y iOS, me Especializo 
             en crear soluciones digitales elegantes, modernos y eficientes. Mi pasión 

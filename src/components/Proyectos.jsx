@@ -49,14 +49,14 @@ const Proyectos = () => {
 ];
 
   return (
-    <div className="mt-14 px-4 md:mt-20">
-      <h1 className="text-center mt-6 font-extrabold text-xl">Proyectos realizados y en proceso</h1>
+    <div id="proyectos" className="mt-14 px-4 md:mt-20">
+      <h1 className="text-center mt-6 font-bold text-2xl">Proyectos realizados y en proceso</h1>
       <div className="flex overflow-x-auto gap-6 pb-4">
     {proyectos.map((proyecto) => (
 
         <div 
         key={proyecto.id}
-        className="min-w-[340px] max-w-[300px] bg-white rounded-2xl mt-10 shadow-xl">
+        className="min-w-[340px] max-w-[300px] bg-white rounded-2xl mt-10 shadow-xl pb-6">
         <img src={imagenes[proyecto.imagen]} 
         className="h-46 w-full object-contain rounded-t-2xl transition-transform duration-300 transform hover:scale-160"
         />
