@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/kennylogo4.png";
+import logo from "../assets/Kennylogo4.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
