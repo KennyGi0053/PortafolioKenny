@@ -2,7 +2,7 @@ import './App.css'
 import Contacto from './components/Contacto'
 import Habilidades from './components/Habilidades'
 import Navbar from './components/Navbar'
-import Presentacion from './components/presentacion'
+import Presentacion from './components/Presentacion'
 import Proyectos from './components/Proyectos'
 import Sobremi from './components/Sobremi'
 import { ToastContainer } from 'react-toastify';
