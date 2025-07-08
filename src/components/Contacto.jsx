@@ -1,6 +1,5 @@
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
-
 import email from "../assets/email.png";
 import phone from "../assets/phone.png";
 import location from "../assets/location.png";
@@ -65,7 +64,7 @@ const Contacto = () => {
           />
           <textarea
             name="message"
-            placeholder="Tu mensaje"
+            placeholder="Redacta tu mensaje"
             required
             className="p-2 border border-gray-600 rounded-lg h-32 resize-none"
           />
