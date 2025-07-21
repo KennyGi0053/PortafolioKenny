@@ -24,11 +24,11 @@ const Proyectos = () => {
   },
   {
     id: 3,
-    imagen: "../assets/TicketShow.png",
-    titulo: "Ticket",
-    descripcion: "Página web e-commerce para venta de Tickets para conciertos musicales",
-    tecnologias: ["HTML", "React-Vite", "Tailwind CSS", "Redux", "PostgreSQL", "Express", "Sequelize", "NodeJS","Firebase" ],
-    link: "https://ticket-show.netlify.app/profile"
+    imagen: "../assets/imagenlinomotorspage.png",
+    titulo: "Lino Motors",
+    descripcion: "Landing Page Lino Motors, Servicio de mecánica automotriz",
+    tecnologias: ["HTML", "React-Vite", "Tailwind CSS", "Javascript"],
+    link: "https://lino-motors.vercel.app/"
   },
   {
     id: 4,
@@ -45,7 +45,15 @@ const Proyectos = () => {
     descripcion: "Aplicación para Android, iOS para recarga de servicios celulares,Streaming",
     tecnologias: ["React Native", "Expo", "NativewindCSS"],
     link: ""
-  }
+  },
+  {
+    id: 3,
+    imagen: "../assets/TicketShow.png",
+    titulo: "Ticket",
+    descripcion: "Página web e-commerce para venta de Tickets para conciertos musicales",
+    tecnologias: ["HTML", "React-Vite", "Tailwind CSS", "Redux", "PostgreSQL", "Express", "Sequelize", "NodeJS","Firebase" ],
+    link: "https://ticket-show.netlify.app/profile"
+  },
 ];
 
   return (
