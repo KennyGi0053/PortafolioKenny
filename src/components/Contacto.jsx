@@ -71,7 +71,7 @@ const Contacto = () => {
 
           <button
             type="submit"
-            className="bg-[#1269FF] text-white py-2 rounded-lg hover:bg-blue-700 transition"
+            className="bg-[#1269FF] text-white py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer"
           >
             Enviar mensaje
           </button>
